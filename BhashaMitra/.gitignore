@@ -1,0 +1,44 @@
+# .gitignore for BhashaMitra
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+env/
+
+# .env files (sensitive information)
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Python distribution packages
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model files (large models can be excluded)
+*.bin
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Uploads folder (if not required to push to version control)
+uploads/
+
+# Other directories or files that shouldn't be pushed to Git
+*.db
+*.sqlite

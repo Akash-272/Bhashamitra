@@ -1,0 +1,28 @@
+# BhashaMitra requirements.txt
+
+# Streamlit for the web app
+streamlit==1.19.0
+
+# Transformers for NLP models (e.g., translation, simplification)
+transformers==4.27.0
+
+# PyMuPDF for PDF extraction
+PyMuPDF==1.19.6
+
+# Hugging Face for language models
+torch==1.12.1  # Or use an appropriate version of PyTorch for your system
+
+# pyttsx3 for text-to-speech
+pyttsx3==2.90
+
+# Faiss for optional vector database functionality
+faiss-cpu==1.7.1
+
+# Logging and environment handling
+python-dotenv==0.19.2
+
+# If using OpenAI API for GPT models
+openai==0.27.0
+
+# For testing (optional)
+pytest==7.2.0
